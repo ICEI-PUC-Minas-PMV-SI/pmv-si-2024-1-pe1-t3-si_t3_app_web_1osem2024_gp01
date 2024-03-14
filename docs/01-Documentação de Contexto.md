@@ -1,6 +1,10 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Gestão de processos é um conjunto de práticas que visam identificar, monitorar e aprimorar processos organizacionais dentro de uma empresa. Como resultado dessa monitorização constante, as empresas podem melhorar seus processos internos, aumentar a eficiência, minimizar possíveis erros, reduzir custos e garantir a qualidade de seus produtos ou serviços.
+
+Contudo, as ferramentas de software disponíveis para viabilizar essa gestão estão fragmentadas em diversas plataformas, o que dificulta uma integração por parte dos gestores e inviabiliza resultados confiáveis.
+
+Neste contexto, o objetivo do nosso projeto é permitir a centralização das informações, dos processos comerciais e de gestão operacional, através do desenvolvimento de um Hub, para que os gestores dessas áreas consigam obter dados desses processos, melhorar tomadas de decisão do negócio, aumentar eficiência operacional, reduzir custos e promover maior competitividade.
 
 ## Problema
 
