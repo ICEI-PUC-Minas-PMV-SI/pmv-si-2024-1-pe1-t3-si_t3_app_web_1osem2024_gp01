@@ -1,23 +1,27 @@
-# TÍTULO DO PROJETO
+# HUB DE FERRAMENTAS DE GESTÃO DE PROCESSOS
 
-`CURSO`
+`SISTEMAS DE INFORMAÇÃO`
 
-`DISCIPLINA`
+`EIXO 1 - PROJETO: APLICAÇÕES WEB`
 
-`SEMESTRE`
+`1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alvaro Vinicius Paschoal Sarmento
+* Andre de Sousa Lopes
+* Carlos Aguinaldo Alves Marques da Silveira
+* Giovanna Cristina Ambrosio dos Santos
+* Israel Fernandes Dias
+* Ivan Abduch
+* Roberta Alves Lima 
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nesley Jesus Daher de Olivera
 
 ## Instruções de utilização
 
