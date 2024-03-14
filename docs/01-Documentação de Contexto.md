@@ -4,7 +4,7 @@ Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o pr
 
 ## Problema
 
-Ferramentas de gerenciamento estão divididas em diversos portais dificultando a visualização global do processo.
+Ferramentas de gerenciamento estão divididas em diversos portais, o que dificulta a visualização macro dos processos.
 
 ## Objetivos
 
