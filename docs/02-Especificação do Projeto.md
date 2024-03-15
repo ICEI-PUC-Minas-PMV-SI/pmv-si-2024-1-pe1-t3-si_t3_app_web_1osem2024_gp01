@@ -8,7 +8,30 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+"A Ana tem 39 anos, ela é uma consultora de processos muito dedicada. Ela tem uma abordagem analítica e colaborativa para impulsionar a excelência operacional de todos nós da empresa. Com isso, todos os feedbacks que ouço de amigos de outras empresas, é que ela faz uma super transformação!" — Gabriel Oliveira, Gerente de Operações da Empresa Solar (Cliente)
+
+Ana possui uma ampla experiência em consultoria de processos, adquirida ao longo dos anos que atua no mercado, já totaliza mais de 15 anos. Ela é formada em Engenharia de Produção e é especializada em Gestão de Processos Empresariais. Tem uma cartela de clientes bem variados, em diversos setores, desde pequenos empreendedores, empresas familiares até multinacionais. Ana trabalha já na identificação dos problemas, partindo para a análise do fluxo de trabalho para depois poder implementar soluções e treinamento das equipes.
+
+Ana não deixa sua vida pessoal e familiar de lado, é casada com um Engenheiro Civil que também ama Processos e Eficiência. Possui 2 filhos, uma mais velha que faz faculdade de Design e um mais novo que ainda está na escola. A engenheira não deixa de assistir séries com seu marido, assim que chega do trabalho, suas favoritas no momento são: "The Office", "Mindhunter" e "Greys Anatomy". Ana gosta de usar esse tempo para se distrair, ter tempo de qualidade com seu marido e família e não ficar presa somente ao trabalho.
+
+### Características e Comportamentos
+• Determinada e dedicada: Ana é reconhecida por sua perseverança em atingir seus objetivos tanto no âmbito profissional quanto pessoal. Define metas específicas e se empenha com insistência para concretizá-las, mantendo o foco mesmo diante dos desafios do dia a dia.
+
+• Empática e colaborativa: Ana demonstra habilidades interpessoais notáveis, sendo sempre empática e colaborativa nas interações com colegas, clientes e familiares. Valoriza a comunicação aberta e o espírito de equipe, buscando compreender as necessidades e perspectivas alheias a fim de encontrar soluções eficazes e relações sólidas.
+
+• Analítica e estratégica: Ana, como Consultora de Processos, possui uma abordagem altamente analítica e estratégica na resolução de problemas e na identificação de oportunidades de melhoria. Ela baseia suas recomendações e decisões em dados e análises, sempre em busca dos melhores resultados para seus clientes.
+
+• Equilíbrio entre trabalho e vida pessoal: Embora comprometida com o trabalho, Ana valoriza um equilíbrio saudável entre sua vida profissional e pessoal. Ela dedica tempo para cuidar de si mesma, de sua família e de seus interesses pessoais.
+
+### Desafios
+
+Enfrentar a resistência à mudança é um desafio recorrente para Ana, especialmente ao lidar com clientes que resistem a mudanças. A implementação de novos processos muitas vezes demanda que as equipes deixem para trás práticas antigas e se adaptem a novas abordagens, o que pode gerar resistência por parte de alguns membros da equipe ou líderes da empresa.
+
+Outro desafio é o gerenciamento das expectativas dos clientes, algo que Ana precisa lidar como consultora. Alguns clientes podem ter expectativas pouco realistas em relação aos resultados do projeto, exigindo que Ana trabalhe proativamente para alinhar as expectativas e garantir uma compreensão clara dos objetivos do projeto.
+
+Estar sempre por dentro das novas tendências é essencial para Ana como consultora. Ela se esforça para manter-se atualizada sobre as últimas novidades e tecnologias em gestão de processos, buscando constantemente desenvolver novas habilidades para oferecer excelentes serviços aos clientes e se manter competitiva no mercado.
+
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
