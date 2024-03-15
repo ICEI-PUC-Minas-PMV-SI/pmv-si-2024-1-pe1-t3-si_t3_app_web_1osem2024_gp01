@@ -34,7 +34,7 @@ Estar sempre por dentro das novas tendências é essencial para Ana como consult
 
 ### 2. Rodrigo Torres
 
-"Rodrigo é um líder ótimo. Ele é super dinâmico, adaptável e muito comprometido em me impulsionar para eu alcançar a excelência operacional.
+"O Rodrigo tem 35 anos, é um líder ótimo. Ele é super dinâmico, adaptável e muito comprometido em me impulsionar para eu alcançar a excelência operacional.
 Ele sempre incentiva a equipe e faz questão de capacitar a todos para cada um ter a evolução que precisa."  — Caroline Sobral (Colaboradora).
 
 Rodrigo é formado em Administração de Empresas e fez Pós Graduação em Gestão de Processos. Tem uma experiência muito sólida, possui mais de 10 anos de experiência e já trabalhou em empresas de grande e médio porte, atualmente trabalha em uma de porte médio. Por ter trabalhado em diversos setores, como de manufatura, tecnologia e serviços, sua carreira atualmente é focada na melhoria dos processos e em maneiras de implementar soluções para aumentar a eficiência profissional.
