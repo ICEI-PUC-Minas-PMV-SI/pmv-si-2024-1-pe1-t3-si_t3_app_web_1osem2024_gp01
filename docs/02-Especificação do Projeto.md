@@ -2,10 +2,6 @@
 
 <span style="color:red">Pré-requisitos: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 ### 1. Ana Luiza
 
@@ -59,59 +55,47 @@ Tendo o cargo de Gerente de Operações, Rodrigo sempre busca uma maneira de dei
 Conforme a empresa for crescendo, Rodrigo tem novos desafios, por exemplo, garantir que esses processos e ferramentas de gestão, acompanhem a evolução da empresa. Por isso, ele busca um resultado em que possa crescer e sempre se adaptar às novas necessidades, referente às evoluções da empresa, sem interferir na entrega de qualidade do serviço/ferramenta.
 
 
-
-
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO...| QUERO/PRECISO ... |PARA ...                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Ana Luiza  | Acompanhar índices de venda a cada mês           | Melhorar processos da equipe de vendas              |
+|Rodrigo Torres       | Dados tabelados de meta alcançada a cada mês               | Tomar melhores decisões sobre o quadro de colaboradores |
+|Ana Luiza  | Visualizar os dados em formato de gráfico e tabela           | Melhorar e facilitar a gestão visual             |
+|Rodrigo Torres       | Acompanhar índices de turnover               | Ajustar e aplicar metodologias de treinamento |
+|Ana Luiza  | Compartilhar resultados com clientes           | Acompanhamento em tempo real das melhorias e motivos das sugestões propostas             |
+|Rodrigo Torres       | Preencher com facilidade os dados de pagamento dos fornecedores               | Facilitar a consulta e confiabilidade na base de dados |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário cadastre-se com e-mail e senha | ALTA |
+|RF-002| Permitir que o usuário redefina sua senha | ALTA |
+|RF-003| Permitir que o usuário cadastre dados de venda dos produtos | ALTA |
+|RF-004| Permitir que o usuário consulte quantidade de vendas ocorridas no mês | ALTA |
+|RF-005| Permitir que o usuário cadastre metas de venda por colaboradores | ALTA |
+|RF-006| Permitir que o usuário consulte metas de venda por colaboradores | ALTA |
+|RF-007| Permitir que o usuário altere quaisquer consultas entre exibições de tabelas e gráficos de Pareto ou por Setores | MÉDIA |
+|RF-008| Permitir que o usuário compartilhe resultados de vendas e turnovers | MÉDIA |
+|RF-009| Permitir que o usuário cadastre dados de pagamento dos fornecedores   | BAIXA |
+|RF-010| Permitir que o usuário consulte dados de pagamento dos fornecedores   | BAIXA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema estar disponível em modo offline | ALTA |
+|RNF-002| O sistema deve ser responsivo para rodar em um dispositivos móvel (Android ou iOS) | MÉDIA | 
+|RNF-003| O sistema deve respeitar o tempo máximo de 120 segundos durante processamentos |  BAIXA | 
+|RNF-004| O desenvolvimento deve ser em linguagem Java | BAIXA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -121,10 +105,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|03| Limitações de segurança        |
+|03| Escopo limitado de funcionalidades        |
+|04| Manutenção e escalabilidade        |
