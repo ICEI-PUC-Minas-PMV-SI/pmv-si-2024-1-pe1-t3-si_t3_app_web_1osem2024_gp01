@@ -19,11 +19,12 @@ Facilitar a integração: Desenvolver um hub que facilite a integração entre d
  
 ## Justificativa
 
-Aumento da eficiência: Com a centralização das informações e a facilitação da integração, as empresas podem aumentar sua eficiência operacional.
+Aumento da eficiência: Com a centralização das informações e a facilitação da integração, as empresas podem aumentar sua eficiência operacional. Segundo Harrington (1997, p. 354), "todas as funções devem trabalhar juntas
+para otimizar a eficiência, a eficácia e a adaptabilidade do processo total”.
 
-Redução de custos: A integração simplificada e a padronização das APIs podem reduzir os custos de desenvolvimento e manutenção de soluções de gestão de processos.
+Redução de custos: A integração simplificada e a padronização das APIs podem reduzir os custos de desenvolvimento e manutenção de soluções de gestão de processos. Conforme destacado por Davenport (1993), a inovação de processos desempenha um papel crucial ao permitir que as organizações alcancem redução de custos e tempos, aprimorem a qualidade, flexibilidade e níveis de serviço, além de outros objetivos.
 
-Maior competitividade: Empresas que conseguem gerenciar seus processos de forma eficiente tendem a ser mais competitivas no mercado.
+Maior competitividade: Empresas que conseguem gerenciar seus processos de forma eficiente tendem a ser mais competitivas no mercado, pois, de acordo com uma pesquisa realizada pela Euax, 97% das empresas que implementam gestão de processos o fazem com o propósito explícito de aprimorar sua performance.
 
 
 ## Público-Alvo
