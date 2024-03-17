@@ -6,7 +6,7 @@
 
 `1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A criação de um hub que centraliza informações de diversas aplicações em um único local proporciona uma maneira mais eficiente de visualizar dados e oferece um controle ampliado sobre os processos de forma geral.
 
 ## Integrantes
 
