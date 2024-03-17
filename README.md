@@ -6,7 +6,7 @@
 
 `1`
 
-A criação de um hub que centraliza informações de diversas aplicações em um único local proporciona uma maneira mais eficiente de visualizar dados e oferece um controle ampliado sobre os processos de forma geral.
+A criação de um hub que centraliza informações de diversas aplicações em um único local proporcionando uma maneira mais eficiente de visualizar todos os dados e oferecendo um controle ampliado sobre os processos de forma geral.
 
 ## Integrantes
 
