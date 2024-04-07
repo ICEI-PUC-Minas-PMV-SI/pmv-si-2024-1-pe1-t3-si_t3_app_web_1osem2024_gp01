@@ -1,77 +1,80 @@
 # Arquitetura da Solução
-
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
-
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+1. **Cliente (Navegador Web)**
+   - **Descrição:** Representa o navegador web utilizado pelo usuário para acessar o site.
+   - **Tecnologias:** Navegador web compatível com HTML, CSS e JavaScript.
 
-Exemplo: 
+2. **Servidor Web**
+   - **Descrição:** Responsável por servir os arquivos estáticos para o navegador do cliente.
+   - **Tecnologias:** Servidor web como Apache, Nginx ou Microsoft IIS.
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+3. **Arquivos Estáticos**
+   - **Descrição:** Conjunto de arquivos HTML, CSS e JavaScript que compõem o site.
+   - **Tecnologias:** HTML, CSS, JavaScript.
 
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+4. **IDE (Visual Studio)**
+   - **Descrição:** Ambiente de desenvolvimento integrado utilizado para escrever e gerenciar o código-fonte.
+   - **Tecnologias:** Visual Studio.
 
-A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+5. **Figma (Design de Interface)**
+   - **Descrição:** Ferramenta de design colaborativo utilizada para criar protótipos e layouts da interface do usuário.
+   - **Tecnologias:** Figma.
 
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
+6. **Bibliotecas e Frameworks**
+   - **Descrição:** Conjunto de bibliotecas e frameworks JavaScript utilizados para simplificar o desenvolvimento.
+   - **Tecnologias:** Exemplos incluem jQuery, Bootstrap, React.js, Vue.js, entre outros.
 
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+### Relacionamentos
 
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
-que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+- O Cliente (Navegador Web) faz requisições HTTP para o Servidor Web.
+- O Servidor Web serve os arquivos estáticos (HTML, CSS, JavaScript) para o Cliente.
+- Os arquivos estáticos são desenvolvidos na IDE (Visual Studio) com base nos designs criados no Figma.
+- As Bibliotecas e Frameworks JavaScript são utilizadas no desenvolvimento dos arquivos estáticos para adicionar funcionalidades adicionais ao site.
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+## Ilustração do User Flow
 
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+A imagem a seguir ilustra o fluxo do usuário em nossa solução. Assim que o usuário entra na plataforma, ele é apresentado à tela inicial onde ele é indicado a digitar o e-mail sob condições de obrigatoriedade.
 
-![Exemplo de UserFlow](img/userflow.jpg)
+Após digitar o e-mail, ele é levado a tela de login, onde poderá inserir o e-mail e senha, clicar em cadastrar-se ou em esqueci a senha, caso tenha esquecido a senha.
 
+Caso ele opte por seguir pelo caminho de cadastrar-se, ele é levado a uma tela de inserção de dados de cadastro, como e-mail e senha. Caso opte pela opção de esquecer a senha, ele é direcionado a inserir o e-mail de cadastro.
+Caso ele insira os dados corretos de login, é levado para a tela principal da aplicação, onde poderá consultar, através de seleção dos indicadores e modos de visualização, quais são os índices desejados para análise.
+
+Nessa tela, há cinco opções na linha superior, sendo elas: 
+>- Atualizar: que realiza a atualização dos dados em tempo real;
+>- Salvar: caso o usuário queira salvar os dados em uma pasta local;
+>- Tela cheia: caso o usuário deseje visualizar os detalhes de índices em tela cheia;
+>- Compartilhar: caso o usuário deseje compartilhar as informações, sendo realizando o download local ou compartilhando via Google Drive ou pelo Gmail;
+>- Logado como...: indica qual conta está logada no momento.
+
+![Hub Solutions - User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/155144408/9276d8a9-0343-46b6-a8c7-ed0131027812)
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+
+1. Figma
+O Figma é uma ferramenta de design colaborativo baseada em nuvem que permite aos designers criar, testar e compartilhar interfaces de usuário de forma eficiente. Ele oferece recursos poderosos para prototipagem e design de interface, permitindo uma visualização detalhada do layout e fluxo de interação do site.
+> - [Figma](https://www.figma.com/)
+
+2. HTML (HyperText Markup Language)
+HTML é a linguagem de marcação padrão para criar páginas web. Ele fornece a estrutura básica para o conteúdo de uma página web, incluindo textos, imagens, links e outros elementos. No contexto deste projeto, o HTML será utilizado para criar a estrutura do site, definindo a organização e disposição dos elementos visuais.
+> - [Mozilla Developer Network (MDN) - HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+
+3. CSS (Cascading Style Sheets)
+CSS é uma linguagem de estilo utilizada para controlar a apresentação visual de uma página web. Com o CSS, é possível definir o layout, cores, fontes e outros aspectos visuais do site, garantindo uma experiência de usuário consistente e atraente.
+> - [Mozilla Developer Network (MDN) - CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
+4. JavaScript
+JavaScript é uma linguagem de programação que permite adicionar interatividade e dinamismo a uma página web. Com o JavaScript, é possível criar funcionalidades avançadas, como animações, validações de formulários e manipulação de dados em tempo real. Neste projeto, o JavaScript será utilizado para implementar a lógica de interação do usuário, como filtros e ordenações de processos.
+> - [Mozilla Developer Network (MDN) - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+5. Visual Studio (IDE - Integrated Development Environment)
+O Visual Studio é uma poderosa IDE desenvolvida pela Microsoft, amplamente utilizada por desenvolvedores para criar e depurar aplicativos web, desktop e móveis. Com recursos avançados de edição de código, depuração e controle de versão integrados, o Visual Studio oferece um ambiente de desenvolvimento eficiente e produtivo. Neste projeto, o Visual Studio pode ser utilizado como a IDE principal para escrever e gerenciar o código HTML, CSS e JavaScript.
+> - [Visual Studio](https://visualstudio.microsoft.com/)
 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A hospedagem e o lançamento da aplicação web ainda não ocorreu em 07/abr/2024.
