@@ -3,6 +3,7 @@
 
 ## User Flow
 ![User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/155144408/818acfb9-116f-4e9f-8f81-de50a78aba79)
+Figura 01 - User Flow do projeto Hub Solutions
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
