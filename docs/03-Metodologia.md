@@ -1,9 +1,23 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+O desenvolvimento de aplicações web envolve uma série de etapas interdependentes, que vão desde a definição dos requisitos do usuário até a implantação e manutenção contínua do sistema. Cada uma dessas etapas requer uma abordagem sistemática e baseada em evidências, a fim de garantir que os objetivos do projeto sejam alcançados de forma eficaz e eficiente.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Nesta metodologia, destacamos a importância de uma abordagem iterativa e incremental, que permite a adaptação às mudanças nos requisitos do usuário e no ambiente tecnológico. Além disso, enfatizamos a importância da colaboração multidisciplinar entre diferentes partes interessadas, incluindo desenvolvedores e usuários finais e especialistas em domínio.
+
+A metodologia escolhida para o desenvolvimento deste projeto é baseada no framework Scrum. O Scrum enfatiza a colaboração, a auto-organização da equipe e a entrega contínua de valor ao cliente.
+
+Para o desenvolvimento desta aplicação, entende-se que o uso do Scrum pode trazer diversos benefícios, tais como:
+
+Entrega Incremental: O Scrum preconiza a entrega de incrementos do produto funcional em curtos períodos de tempo, chamados de sprints. Isso permite que partes do produto sejam entregues e testadas rapidamente, reduzindo o risco de falhas e garantindo que o produto atenda às necessidades do cliente.
+
+Flexibilidade: O Scrum é altamente adaptável a mudanças de requisitos ou de mercado. Como as entregas são frequentes e a equipe revisa o plano a cada sprint, é possível ajustar o curso do projeto de forma ágil e eficiente.
+
+Maior Transparência: O Scrum enfatiza a transparência em todo o processo. Com reuniões diárias (daily standups), reuniões de planejamento e revisão de sprint, todos os membros da equipe e stakeholders têm visibilidade do progresso do projeto e podem colaborar ativamente na tomada de decisões.
+
+Melhoria Contínua: O Scrum incentiva a equipe a refletir sobre seu desempenho ao final de cada sprint, buscando identificar oportunidades de melhoria no processo de desenvolvimento. Isso contribui para a evolução constante da equipe e do produto.
+
+Foco no Cliente: O Scrum coloca o cliente no centro do desenvolvimento, garantindo que as necessidades e expectativas do cliente sejam atendidas de forma prioritária e contínua.
 
 ## Controle de Versão
 
@@ -26,52 +40,25 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- Product Owner -  Responsável pela visão do que irá ser construído ou entregue no projeto
+- Scrum Master - Orientar a equipe em relação à estrutura de processos do Scrum
+- Equipe desenvolvimento - Responsável por pegar a visão do Product Owner e transformá-la em realidade
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+A metodologia Scrum foi escolhida pois aborda de forma ágil o gerenciamento de projetos. Ela envolve a divisão do trabalho em sprints, que são períodos de tempo fixos nos quais são entregues incrementos do produto.
+Como ferramenta de gestão de tarefas escolhemos o Pipefy, pois permite criar fluxos de trabalho personalizados para gerenciar desde a concepção até a entrega do produto final. É possível criar etapas específicas do processo de desenvolvimento, como planejamento da sprint, desenvolvimento, teste e entrega, e movimentar as tarefas entre essas etapas de forma visual e colaborativa.
+No geral, a combinação do Scrum como metodologia de trabalho e o Pipefy como ferramenta de gestão ajudará a equipe a manter o foco nas entregas, acompanhar o progresso do projeto de forma transparente e adaptar-se às mudanças de forma ágil, garantindo assim a qualidade e sucesso do projeto.
  
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+- Visual Studio Code - Editor de código que possui uma integração com o sistema de versão
+- Microsoft Teams - Ferramentas de comunicação
+- Pipefy - Ferramenta de gerenciamento do projeto
+- Figma - Ferramentas de desenho de tela (wireframing) para criar diagramas para melhor captar as necessidades da nossa solução e pela facilidade de uso.
