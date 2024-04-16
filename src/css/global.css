@@ -1,0 +1,23 @@
+:root {
+    --cor-principal:#1F2937;
+    --cor-secundaria:#BCE3FF;
+    --cor-terciaria:#7D7D7D;
+    
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(imgs/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+
+}
