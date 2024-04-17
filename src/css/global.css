@@ -2,10 +2,7 @@
     --cor-principal:#1F2937;
     --cor-secundaria:#BCE3FF;
     --cor-terciaria:#7D7D7D;
-    
-
 }
-
 
 * {
     margin: 0;
@@ -14,10 +11,8 @@
 }
 
 body {
-    background: url(imgs/background.png) no-repeat;
+    background: url(/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/src/imgs/background.png);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-
-
 }

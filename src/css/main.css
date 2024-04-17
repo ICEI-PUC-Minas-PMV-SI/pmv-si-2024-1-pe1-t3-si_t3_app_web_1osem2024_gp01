@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid red;
+    max-width: 20%;
+    background-color: rgba(153, 153, 196, 0.555);
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.navigation .logo {
+    padding: 20px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    width: 300px;
+    justify-content: center;
+}
+
+.action p {
+    padding: 10%;
+}
+
+.perfil {
+    display: absolute;
+    top: 0px;
+    right: 0px;
+}
