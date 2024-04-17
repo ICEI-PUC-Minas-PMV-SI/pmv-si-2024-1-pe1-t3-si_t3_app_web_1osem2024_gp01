@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+header,
+footer {
+    padding: 20px;
+}
+
+#logo-hub img {
+    width: 100px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.caixa-login {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    min-height: 300px; 
+}
+
+.caixa-login p{
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
