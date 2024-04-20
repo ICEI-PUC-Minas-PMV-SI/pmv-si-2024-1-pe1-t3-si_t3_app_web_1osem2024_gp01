@@ -11,7 +11,7 @@
 }
 
 body {
-    background: url(/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/src/imgs/background.png);
+    background: url(/imgs/background.png) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;

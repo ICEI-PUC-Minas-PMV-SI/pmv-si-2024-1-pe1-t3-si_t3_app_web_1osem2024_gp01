@@ -14,33 +14,144 @@ main {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
     max-width: 20%;
-    background-color: rgba(153, 153, 196, 0.555);
+    background: linear-gradient(90deg, #E0EAFC 0%, #CFDEF3 100%);
     position: fixed;
     left: 0;
-    top: 0;
+    top: 150px;
     bottom: 0;
+    border-radius: 10px;
 }
 
+
 .navigation .logo {
-    padding: 20px;
+    padding: 10px;
+    position: fixed;
+    left: 2%;
+    top: 10px;
+    width: 56px;
+    height: 56px;
+
 }
 
 .action {
     display: flex;
     align-items: center;
-    border: 1px solid red;
-    width: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 700px;
+    height: 37px;
+    position: fixed;
+    top: 33px;
+    left: 643px;
     justify-content: center;
+    margin: 10px;
+    background: linear-gradient(90deg, #E0EAFC 0%, #CFDEF3 100%);
+    border-radius: 10px;
 }
 
 .action p {
-    padding: 10%;
+    padding: 5%;
+    white-space: nowrap;
+    
 }
 
 .perfil {
     display: absolute;
     top: 0px;
     right: 0px;
+}
+
+.arquivos li {
+    list-style-image: url(/imgs/Folder\ Arquivos.png);
+    
+}
+
+.indicadores li {
+    text-align: left;
+    list-style-position: inside;
+    margin-top: 5px;
+    font-size: 18px;
+
+}
+
+.indicadores h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.arquivos h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.arquivos li {
+    text-align: left;
+    list-style-position: inside;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.arquivos {
+    margin-top: 400px;
+}
+
+.indicadores button {
+    padding: 4px 8px;
+    cursor: pointer;
+    margin: 10px 22px;
+    
+}
+
+.arquivos button {
+    padding: 4px 8px;
+    cursor: pointer;
+    margin: 10px 22px;
+}
+
+.texto-principal {
+    width: 442px;
+    height: 86px;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    top: 180px;
+    left: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    
+}
+
+.texto-principal h3 {
+    padding-bottom: 20px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    width: 88px;
+    height: 68px;
+    top: 21px;
+    left: 1800px;
+    position: fixed;
+    justify-content: center;
+    margin: 10px;
+    background: linear-gradient(90deg, #E0EAFC 0%, #CFDEF3 100%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.action .img-action {
+    width: 18px;
+    height: 18px;
+    vertical-align: text-top;
+    margin-right: 3px;
+
 }
