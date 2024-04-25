@@ -151,3 +151,21 @@ main {
     margin-right: 3px;
 
 }
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    top: 50%;
+    left: 25%;
+    position: absolute;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
