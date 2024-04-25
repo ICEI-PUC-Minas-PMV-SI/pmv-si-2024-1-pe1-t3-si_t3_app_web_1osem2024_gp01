@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-* {
-    font-family: "Inter";
-}
-
 :root {
     --cor-principal:#1F2937;
     --cor-secundaria:#BCE3FF;
@@ -17,8 +11,9 @@
 }
 
 body {
-    background: url(/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/src/imgs/background.png) no-repeat;
+    background: url(/imgs/background.png) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
+    font-family: 'Lato', sans-serif;
 }

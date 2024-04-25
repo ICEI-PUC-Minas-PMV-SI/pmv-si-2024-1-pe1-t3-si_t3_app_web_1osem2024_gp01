@@ -14,10 +14,12 @@ main {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    max-width: 20%;
     background: linear-gradient(90deg, #E0EAFC 0%, #CFDEF3 100%);
     position: fixed;
-    left: 20px;
-    top: 100px;
+    left: 0;
+    top: 150px;
     bottom: 0;
     border-radius: 10px;
 }
@@ -26,17 +28,17 @@ main {
 .navigation .logo {
     padding: 10px;
     position: fixed;
-    left: 65px;
-    top: 5px;
-}
+    left: 2%;
+    top: 10px;
+    width: 56px;
+    height: 56px;
 
-.logo img {
-    width: 80%;
 }
 
 .action {
     display: flex;
     align-items: center;
+    border: 1px solid rgb(0, 0, 0);
     width: 700px;
     height: 37px;
     position: fixed;
@@ -51,6 +53,13 @@ main {
 .action p {
     padding: 5%;
     white-space: nowrap;
+    
+}
+
+.perfil {
+    display: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .arquivos li {
@@ -111,7 +120,7 @@ main {
     bottom: 1px;
     right: 0;
     top: 180px;
-    left: 260px;
+    left: 220px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -126,22 +135,17 @@ main {
 .perfil {
     display: flex;
     align-items: center;
-    width: 100px;
-    height: 90px;
-    top: 15px;
-    left: 1785px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 88px;
+    height: 68px;
+    top: 21px;
+    left: 1800px;
     position: fixed;
     justify-content: center;
     margin: 10px;
     background: linear-gradient(90deg, #E0EAFC 0%, #CFDEF3 100%);
     border-radius: 10px;
     text-align: center;
-    cursor: pointer;
-}
-
-.perfil p {
-    font-size: 90%;
-    font-weight: 500;
 }
 
 .action .img-action {
@@ -153,19 +157,52 @@ main {
 }
 
 table {
+    position: relative;
+    width: 1200px;
+    height: 591px;
     border-collapse: collapse;
-    width: 50%;
-    top: 50%;
-    left: 25%;
-    position: absolute;
+    top: 210px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+
+    
 }
 
 th, td {
-    border: 1px solid black;
-    padding: 8px;
+    
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #dfdddd;
+    
+}
+
+table tbody tr:hover {
+    background: linear-gradient(90deg, #E0EAFC 0%, #CFDEF3 100%);
+}
+
+table .direita {
+    text-align: right;
+}
+
+table .esquerda {
+    padding: 0px 60px;
     text-align: left;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
+th {
+    background-color: #dfdddd;
+    font-size: 20px;
+}
+
+.tabela h2 {
+    position: fixed;
+    width: 180px;
+    height: 26px;
+    top: 160px;
+    left: 50;
+
 }
