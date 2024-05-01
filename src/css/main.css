@@ -62,11 +62,6 @@ main {
     right: 0px;
 }
 
-.arquivos li {
-    list-style-image: url(/imgs/Folder\ Arquivos.png);
-    
-}
-
 .indicadores li {
     text-align: left;
     list-style-position: inside;
@@ -97,7 +92,7 @@ main {
 }
 
 .arquivos {
-    margin-top: 400px;
+    padding-top: 200%;
 }
 
 .indicadores button {
