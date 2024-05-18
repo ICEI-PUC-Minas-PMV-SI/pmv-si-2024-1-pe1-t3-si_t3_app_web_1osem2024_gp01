@@ -32,30 +32,38 @@
                 maneira mais eficiente de visualizar todos os dados e oferecer um controle ampliado sobre os processos
                 de forma geral.</p>
             <!-- Formulário de login -->
-            <form action="#">
+            <form id="myForm">
                 <div class="input-dados">
-                    <input type="email" placeholder="Insira seu E-mail" required>
+                    <input type="email" id="email" placeholder="Insira seu E-mail" required>
+                    <span class="error" id="emailError"></span>
                 </div>
                 <div class="input-dados">
-                    <input type="password" placeholder="Insira sua Senha" required>
+                    <input type="password" id="password" placeholder="Insira sua Senha" required>
+                    <span class="error" id="passwordError"></span>
                 </div>
                 <div class="input-dados">
-                    <input type="email" placeholder="Confirme seu E-mail" required>
+                    <input type="email" id="confirmEmail" placeholder="Confirme seu E-mail" required>
+                    <span class="error" id="confirmEmailError"></span>
                 </div>
                 <div class="input-dados">
-                    <input type="password" placeholder="Confirme sua Senha" required>
+                    <input type="password" id="confirmPassword" placeholder="Confirme sua Senha" required>
+                    <span class="error" id="confirmPasswordError"></span>
                 </div>
                 <div class="botao">
-                    <button>Cadastre-se</button>
+                    <button type="submit">Cadastre-se</button>
                 </div>
             </form>
         </div>
     </main>
     <footer>
         <!-- Logotipo e texto do Git -->
+        <a class= "link" href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01" target="_blank"> 
         <img src="imgs/logo-git.png" alt="logo-git">
         <img src="imgs/texto-git.png" alt="texto-git">
+        </a>
+        
     </footer>
+    <script type="text/javascript" src="js/js.js"></script>
 </body>
 
 </html>

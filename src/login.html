@@ -27,6 +27,7 @@
         <div class="hub-titulo">
             <h1>HubSolutions</h1>
         </div>
+
     </header>
     <main>
         <!-- Caixa de Login -->
@@ -38,26 +39,76 @@
             <!-- Formulário de Login -->
             <form action="#">
                 <div class="input-dados">
-                    <input type="email" placeholder="name@email.com" required>
+                    <input type="email" id="email" placeholder="name@email.com" required>
                 </div>
                 <div class="input-dados">
-                    <input type="password" placeholder="********" required>
+                    <input type="password" id="password" placeholder="********" required>
                 </div>
                 <div class="botao">
-                    <button>Iniciar</button>
+                    <button id="iniciar">Iniciar</button>
                 </div>
             </form>
+
+            <script>
+                const iniciar = document.getElementById('iniciar');
+                const emailInput = document.getElementById('email');
+                const passwordInput = document.getElementById('password');
+
+                iniciar.addEventListener('click', function(event) {
+                  event.preventDefault();
+
+                const email = emailInput.value;
+                const password = passwordInput.value;
+
+                    // Verifica se há algum usuário cadastrado
+                let userFound = false;
+  
+                    // Itera pelos itens do localStorage para encontrar o usuário com o email
+                for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key.startsWith('userData-')) { 
+                    // Verifica se a chave começa com 'userData-'
+                const userDataString = localStorage.getItem(key);
+                const userData = JSON.parse(userDataString);
+                if (userData.email === email) {
+                    // Validação
+                if (password === userData.password) {
+                    // Redireciona para a próxima página
+                    window.location.href = 'main_page.html';
+                    userFound = true;
+                    break;
+                      } else {
+                        alert('Email ou senha inválidos!');
+                        userFound = true;
+                        break;
+                      }
+                    }
+                  }
+                }
+
+                // Se o usuário não foi encontrado
+                if (!userFound) {
+                  alert('Nenhum usuário cadastrado com esse email!');
+                }
+                });
+
+            </script>
+
             <!-- Botões adicionais -->
             <div class="botoes">
                 <button>Esqueci a senha</button>
-                <button>Cadastre-se</button>
+                <button id="registro" onclick="window.location.href='registro.html'">Cadastre-se</button>
             </div>
+
+            
         </div>
     </main>
     <footer>
         <!-- Logotipo e texto do Git -->
+        <a class= "link" href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01" target="_blank">   
         <img src="imgs/logo-git.png" alt="logo-git">
         <img src="imgs/texto-git.png" alt="texto-git">
+        </a>
     </footer>
 </body>
 

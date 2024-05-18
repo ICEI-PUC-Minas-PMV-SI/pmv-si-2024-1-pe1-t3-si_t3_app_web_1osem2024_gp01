@@ -62,6 +62,14 @@ main {
     right: 0px;
 }
 
+<<<<<<< HEAD
+.arquivos li {
+    list-style-image: url(/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/src/imgs/Folder\ Arquivos.png);
+    
+}
+
+=======
+>>>>>>> e0532019dc5d4cfce9884a1daee70ba73499994d
 .indicadores li {
     text-align: left;
     list-style-position: inside;
