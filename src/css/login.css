@@ -72,3 +72,7 @@ button {
 button:hover {
     background-color: var(--cor-secundaria);
 }
+
+.error {
+    color: red;
+}

@@ -54,28 +54,43 @@
                 const emailInput = document.getElementById('email');
                 const passwordInput = document.getElementById('password');
 
-            // Verifica se já existe um usuário cadastrado
-            if (localStorage.getItem('usuario') === null) {
-                localStorage.setItem('usuario', JSON.stringify({ email: 'usuario1@email.com', password: 'senha1' }));
-              }
-
-            iniciar.addEventListener('click', function(event) {
-                event.preventDefault();
+                iniciar.addEventListener('click', function(event) {
+                  event.preventDefault();
 
                 const email = emailInput.value;
                 const password = passwordInput.value;
 
-                // Recupera o usuário do LocalStorage
-                const usuario = JSON.parse(localStorage.getItem('usuario'));
-
-                // Validação
-                if (email === usuario.email && password === usuario.password) {
-                   // Redireciona para a próxima página
-                   window.location.href= 'main_page.html'
-              } else {
-                alert('Email ou senha inválidos!');
+                    // Verifica se há algum usuário cadastrado
+                let userFound = false;
+  
+                    // Itera pelos itens do localStorage para encontrar o usuário com o email
+                for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key.startsWith('userData-')) { 
+                    // Verifica se a chave começa com 'userData-'
+                const userDataString = localStorage.getItem(key);
+                const userData = JSON.parse(userDataString);
+                if (userData.email === email) {
+                    // Validação
+                if (password === userData.password) {
+                    // Redireciona para a próxima página
+                    window.location.href = 'main_page.html';
+                    userFound = true;
+                    break;
+                      } else {
+                        alert('Email ou senha inválidos!');
+                        userFound = true;
+                        break;
+                      }
                     }
-                  });
+                  }
+                }
+
+                // Se o usuário não foi encontrado
+                if (!userFound) {
+                  alert('Nenhum usuário cadastrado com esse email!');
+                }
+                });
 
             </script>
 
