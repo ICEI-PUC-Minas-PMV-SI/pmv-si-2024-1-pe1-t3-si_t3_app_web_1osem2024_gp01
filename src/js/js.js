@@ -3,12 +3,14 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 const confirmEmail = document.getElementById("confirmEmail");
 const confirmPassword = document.getElementById("confirmPassword");
+const recover = document.getElementById("recover");
 
 // Mensagens de erro
 const emailError = document.getElementById("emailError");
 const passwordError = document.getElementById("passwordError");
 const confirmEmailError = document.getElementById("confirmEmailError");
 const confirmPasswordError = document.getElementById("confirmPasswordError");
+const recoverError = document.getElementById("recoverError");
 
 form.addEventListener("submit", function(event) {
 // Limpar mensagens de erro anteriores
@@ -16,6 +18,7 @@ emailError.textContent = "";
 passwordError.textContent = "";
 confirmEmailError.textContent = "";
 confirmPasswordError.textContent = "";
+recoverError.textContent = "";
 
 // Validar campos
 let isValid = true;
@@ -57,7 +60,8 @@ localStorage.setItem('nextId', nextId.toString());
 const userData = {
   id: nextId,
   email: email.value,
-  password: password.value
+  password: password.value,
+  recover: recover.value
 };
 
 console.log("userData:", userData);

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma de gestão centralizada para aplicações de negócios, incluindo CRM, API e processos.">
+    <meta name="author" content="SI_T03_GP01">
+    <title>Registro | HubSolutions</title>
+    <link rel="shortcut icon" href="imgs/ico-hubsolutions.ico" type="ico-hubsolutions">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <div id="logo-hub">
+            <a class="link" href="login.html">
+                <img src="imgs/logo-hubsolutions.png" alt="logo-hubsolutions">
+            </a>
+        </div>
+        <!-- Título -->
+        <div>
+            <h1>HubSolutions</h1>
+        </div>
+    </header>
+    <main>
+        <!-- Caixa de registro -->
+        <div class="caixa-login">
+            <!-- Texto explicativo -->
+            <p>A criação de um hub que centraliza informações de diversas aplicações em um único local proporciona uma maneira mais eficiente de visualizar todos os dados e oferecer um controle ampliado sobre os processos de forma geral.</p>
+            <!-- Formulário de login -->
+            <form id="myForm">
+                <div class="input-dados">
+                    <input type="text" id="recoverWord" placeholder="Insira sua Palavra de Recuperação" required>
+                    <span class="error" id="recoverError"></span>
+                </div>
+                <div class="botao">
+                    <button type="submit">Recuperar</button>
+                </div>
+            </form>
+            <div id="result"></div> <!-- Elemento para exibir a mensagem de resultado -->
+        </div>
+    </main>
+    <footer>
+        <!-- Logotipo e texto do Git -->
+        <a class="link" href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01" target="_blank">
+            <img src="imgs/logo-git.png" alt="logo-git">
+            <img src="imgs/texto-git.png" alt="texto-git">
+        </a>
+    </footer>
+    <script type="text/javascript" src="js/recover.js"></script>
+</body>
+</html>

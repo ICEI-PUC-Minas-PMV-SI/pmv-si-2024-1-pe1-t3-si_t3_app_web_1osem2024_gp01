@@ -17,7 +17,9 @@
     <header>
         <!-- Logo -->
         <div id="logo-hub">
-            <img src="imgs/logo-hubsolutions.png" alt="logo-hubsolutions">
+            <a class="link" href="login.html">
+                <img src="imgs/logo-hubsolutions.png" alt="logo-hubsolutions">
+            </a>
         </div>
         <!-- Título -->
         <div>
@@ -48,6 +50,10 @@
                 <div class="input-dados">
                     <input type="password" id="confirmPassword" placeholder="Confirme sua Senha" required>
                     <span class="error" id="confirmPasswordError"></span>
+                </div>
+                <div class="input-dados">
+                    <input type="text" id="recover" placeholder="Insira sua Palavra de Recuperação" required>
+                    <span class="error" id="recoverError"></span>
                 </div>
                 <div class="botao">
                     <button type="submit">Cadastre-se</button>
