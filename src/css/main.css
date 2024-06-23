@@ -212,6 +212,18 @@ body {
     height: 700px;
 }
 
+#data-table2 {
+    overflow-y: auto;
+    height: 650px;
+    width: 100%;
+}
+
+#data-table3 {
+    overflow-y: auto;
+    height: 650px;
+    width: 100%;
+}
+
 .tabela-indicadores {
     width: 100%;
     border-collapse: collapse;
@@ -231,4 +243,15 @@ body {
 
 .tabela-indicadores td {
     text-align: center;
+}
+
+.user-info {
+    display: none; 
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+    top: 15%;
+    left: 1640px;
+    width: auto;
 }

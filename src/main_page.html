@@ -10,6 +10,14 @@
     <link rel="shortcut icon" href="imgs/ico-hubsolutions.ico" type="ico-hubsolutions">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
+    <style>
+        .user-info {
+            display: none; 
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -51,54 +59,82 @@
             <p>Acesse o menu lateral para visualização dos indicadores.</p>
         </div>
 
+                        <!-- Tabelas com os Dados-->
         <div class="tabela" id="data-table" style="display: none;">
-            <h2>INDICADOR 1</h2>
+        <h2>COMERCIAL</h2>
             <table>
                 <thead>
-                    <tr id="table-header"></tr>
+                    <tr id="table-header-comercial"></tr>
                 </thead>
-                <tbody id="table-body"></tbody>
+                <tbody id="table-body-comercial"></tbody>
+            </table>
+        </div>
+                        
+        <div class="tabela" id="data-table2" style="display: none;">
+            <h2>SUPRIMENTO</h2>
+            <table>
+                <thead>
+                    <tr id="table-header-suprimento"></tr>
+                </thead>
+                <tbody id="table-body-suprimento"></tbody>
+            </table>
+        </div>
+                        
+        <div class="tabela" id="data-table3" style="display: none;">
+            <h2>PROJETO</h2>
+            <table>
+                <thead>
+                    <tr id="table-header-projeto"></tr>
+                </thead>
+                <tbody id="table-body-projeto"></tbody>
             </table>
         </div>
 
+                        <!-- Tabelas com os Indicadores-->
         <div id="indicador-comercial" class="indicador" style="display: none;">
-            <h2>Indicadores Comerciais</h2>
-            <table id="tabela-indicadores-comercial" class="tabela-indicadores">
-                <thead>
-                    <tr id="indicadores-header-comercial"></tr>
-                </thead>
-                <tbody id="indicadores-body-comercial"></tbody>
-            </table>
-        </div>
+    <h2>Indicadores Comerciais</h2>
+    <table id="tabela-indicadores-comercial" class="tabela-indicadores">
+        <thead>
+            <tr id="indicadores-header-comercial"></tr>
+        </thead>
+        <tbody id="indicadores-body-comercial"></tbody>
+    </table>
+</div>
 
-        <div id="indicador-suprimento" class="indicador" style="display: none;">
-            <h2>Indicadores de Suprimento</h2>
-            <table id="tabela-indicadores-suprimento" class="tabela-indicadores">
-                <thead>
-                    <tr id="indicadores-header-suprimento"></tr>
-                </thead>
-                <tbody id="indicadores-body-suprimento"></tbody>
-            </table>
-        </div>
+<div id="indicador-suprimento" class="indicador" style="display: none;">
+    <h2>Indicadores de Suprimento</h2>
+    <table id="tabela-indicadores-suprimento" class="tabela-indicadores">
+        <thead>
+            <tr id="indicadores-header-suprimento"></tr>
+        </thead>
+        <tbody id="indicadores-body-suprimento"></tbody>
+    </table>
+</div>
 
-        <div id="indicador-projeto" class="indicador" style="display: none;">
-            <h2>Indicadores de Projeto</h2>
-            <table id="tabela-indicadores-projeto" class="tabela-indicadores">
-                <thead>
-                    <tr id="indicadores-header-projeto"></tr>
-                </thead>
-                <tbody id="indicadores-body-projeto"></tbody>
-            </table>
-        </div>
+<div id="indicador-projeto" class="indicador" style="display: none;">
+    <h2>Indicadores de Projeto</h2>
+    <table id="tabela-indicadores-projeto" class="tabela-indicadores">
+        <thead>
+            <tr id="indicadores-header-projeto"></tr>
+        </thead>
+        <tbody id="indicadores-body-projeto"></tbody>
+    </table>
+</div>
 
         <div class="perfil">
             <p>ADMIN</p>
         </div>
+
+        <div class="user-info">
+            <!-- Aqui vão as informações dos usuários -->
+        </div>
+
     </main>
 
     <footer></footer>
     <script src="js/api.js"></script>
     <script src="js/indicadores.js"></script>
+    <script src="js/localstorage.js"></script>
 </body>
 
 </html>

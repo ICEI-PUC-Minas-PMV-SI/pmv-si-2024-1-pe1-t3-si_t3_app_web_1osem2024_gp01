@@ -1,6 +1,6 @@
-function createTableFromJson(jsonData) {
-    const tableHeader = document.getElementById("table-header");
-    const tableBody = document.getElementById("table-body");
+function createTableFromJson(jsonData, headerId, bodyId) {
+    const tableHeader = document.getElementById(headerId);
+    const tableBody = document.getElementById(bodyId);
     const headers = Object.keys(jsonData[0]);
 
     // Limpa a tabela antes de adicionar os novos dados
@@ -24,76 +24,53 @@ function createTableFromJson(jsonData) {
     });
 }
 
-const botaoTeste = document.getElementById("pasta1");
+// Função para carregar e exibir tabela
+function loadAndShowTable(buttonId, tableId, headerId, bodyId, jsonData) {
+    const button = document.getElementById(buttonId);
+
+    button.addEventListener('click', () => {
+        // Esconde todas as tabelas
+        const allTables = document.querySelectorAll(".tabela");
+        allTables.forEach(table => table.style.display = 'none');
+
+        createTableFromJson(jsonData, headerId, bodyId);
+
+        // Esconde o texto de boas-vindas
+        document.getElementById('boas-vindas').style.display = 'none';
+
+        // Mostra a tabela selecionada
+        document.getElementById(tableId).style.display = 'block';
+    });
+}
 
 // Carrega o JSON usando fetch
 fetch("json/apifake-com.json")
     .then(response => response.json())
-    .then(data => {
-        // Atribui a função anônima ao evento 'onclick' do botão
-        botaoTeste.onclick = () => {
-            createTableFromJson(data);
-        };
+    .then(dataCom => {
+        // Chama a função para carregar a tabela 'Comercial'
+        loadAndShowTable("pasta1", "data-table", "table-header-comercial", "table-body-comercial", dataCom);
     });
-
-document.getElementById('pasta1').addEventListener('click', function() {
-    // Esconde o texto de boas-vindas
-    document.getElementById('boas-vindas').style.display = 'none';
-      
-    // Mostra a tabela
-    document.getElementById('data-table').style.display = 'block';
-  }); 
-  
-
-
-
-
-const botaoSup = document.getElementById("pasta2");
 
 // Carrega o JSON usando fetch
 fetch("json/apifake-sup.json")
     .then(response => response.json())
-    .then(data => {
-        // Atribui a função anônima ao evento 'onclick' do botão
-        botaoSup.onclick = () => {
-            createTableFromJson(data);
-        };
+    .then(dataSup => {
+        // Chama a função para carregar a tabela 'Suprimento'
+        loadAndShowTable("pasta2", "data-table2", "table-header-suprimento", "table-body-suprimento", dataSup);
     });
-
-
-document.getElementById('pasta2').addEventListener('click', function() {
-    // Esconde o texto de boas-vindas
-    document.getElementById('boas-vindas').style.display = 'none';
-      
-    // Mostra a tabela
-    document.getElementById('data-table').style.display = 'block';
-  });
-
-const botaoProj = document.getElementById("pasta3");
 
 // Carrega o JSON usando fetch
 fetch("json/apifake-proj.json")
     .then(response => response.json())
-    .then(data => {
-        // Atribui a função anônima ao evento 'onclick' do botão
-        botaoProj.onclick = () => {
-            createTableFromJson(data);
-        };
+    .then(dataProj => {
+        // Chama a função para carregar a tabela 'Projeto'
+        loadAndShowTable("pasta3", "data-table3", "table-header-projeto", "table-body-projeto", dataProj);
     });
 
-
-document.getElementById('pasta3').addEventListener('click', function() {
-    // Esconde o texto de boas-vindas
-    document.getElementById('boas-vindas').style.display = 'none';
-      
-    // Mostra a tabela
-    document.getElementById('data-table').style.display = 'block';
-  });
-
-  // Cursor de Click
-    document.getElementById('indicador1').style.cursor = 'pointer';
-    document.getElementById('indicador2').style.cursor = 'pointer';
-    document.getElementById('indicador3').style.cursor = 'pointer';
-    document.getElementById('pasta1').style.cursor = 'pointer';
-    document.getElementById('pasta2').style.cursor = 'pointer';
-    document.getElementById('pasta3').style.cursor = 'pointer';
+// Define o cursor de click
+document.getElementById('indicador1').style.cursor = 'pointer';
+document.getElementById('indicador2').style.cursor = 'pointer';
+document.getElementById('indicador3').style.cursor = 'pointer';
+document.getElementById('pasta1').style.cursor = 'pointer';
+document.getElementById('pasta2').style.cursor = 'pointer';
+document.getElementById('pasta3').style.cursor = 'pointer';
