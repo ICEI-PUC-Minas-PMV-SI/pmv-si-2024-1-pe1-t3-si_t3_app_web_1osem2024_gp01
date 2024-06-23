@@ -24,7 +24,6 @@ main {
     border-radius: 10px;
 }
 
-
 .navigation .logo {
     padding: 10px;
     position: fixed;
@@ -32,7 +31,6 @@ main {
     top: 10px;
     width: 56px;
     height: 56px;
-
 }
 
 .action {
@@ -53,12 +51,10 @@ main {
 .action p {
     padding: 5%;
     white-space: nowrap;
-    
 }
 
 .arquivos li {
     list-style-image: url(/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/src/imgs/Folder\ Arquivos.png);
-    
 }
 
 .indicadores li {
@@ -66,21 +62,18 @@ main {
     list-style-position: inside;
     margin-top: 5px;
     font-size: 18px;
-
 }
 
 .indicadores h1 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
-
 }
 
 .arquivos h1 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
-
 }
 
 .arquivos li {
@@ -98,7 +91,6 @@ main {
     padding: 4px 8px;
     cursor: pointer;
     margin: 10px 22px;
-    
 }
 
 .arquivos button {
@@ -119,7 +111,6 @@ main {
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;
-    
 }
 
 .texto-principal h3 {
@@ -147,21 +138,18 @@ main {
     height: 18px;
     vertical-align: text-top;
     margin-right: 3px;
-
 }
 
 .tabela {
-    position:relative;
+    position: relative;
     width: 1600px;
     border-collapse: collapse;
     top: 210px;
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
-
 }
 
 th, td {
-    
     text-align: left;
     padding: 10px;
     border-radius: 10px;
@@ -169,7 +157,6 @@ th, td {
 
 .tabela tbody tr:nth-child(even) {
     background-color: #dfdddd;
-    
 }
 
 .tabela tbody tr:hover {
@@ -196,7 +183,6 @@ th {
     height: 26px;
     top: 160px;
     left: 50;
-
 }
 
 body {
@@ -205,23 +191,44 @@ body {
     grid-template-rows: auto 1fr;
     gap: 20px;
     padding: 20px;
-  }
-  
-  .menu {
+}
+
+.menu {
     grid-column: 1;
     grid-row: 1 / span 2;
-  }
-  
-  .conteudo {
+}
+
+.conteudo {
     grid-column: 2;
     grid-row: 1 / span 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  #data-table {
+#data-table {
     overflow-y: auto;
     height: 700px;
-  }
+}
+
+.tabela-indicadores {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-indicadores th, .tabela-indicadores td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tabela-indicadores th {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tabela-indicadores td {
+    text-align: center;
+}
