@@ -1,0 +1,122 @@
+[
+  {
+      "Nome do Solicitante": "João Silva",
+      "Projeto": "Construção de uma casa de 200 m²",
+      "Item Solicitado": "Materiais de construção",
+      "Valor Orçado": "R$ 50.000",
+      "Fornecedor": "ConstruCenter",
+      "Status": "Aprovado"
+  },
+  {
+      "Nome do Solicitante": "Maria Fernandes",
+      "Projeto": "Desenvolvimento de software de gestão",
+      "Item Solicitado": "Licenças de software",
+      "Valor Orçado": "R$ 30.000",
+      "Fornecedor": "SoftwareCorp",
+      "Status": "Pendente"
+  },
+  {
+      "Nome do Solicitante": "Carlos Oliveira",
+      "Projeto": "Implementação de sistema ERP",
+      "Item Solicitado": "Servidores",
+      "Valor Orçado": "R$ 100.000",
+      "Fornecedor": "TechSupply",
+      "Status": "Aprovado"
+  },
+  {
+      "Nome do Solicitante": "Ana Pereira",
+      "Projeto": "Redesenho de site corporativo",
+      "Item Solicitado": "Serviços de design",
+      "Valor Orçado": "R$ 20.000",
+      "Fornecedor": "WebDesignPro",
+      "Status": "Em análise"
+  },
+  {
+      "Nome do Solicitante": "Paulo Souza",
+      "Projeto": "Campanha de marketing digital",
+      "Item Solicitado": "Anúncios online",
+      "Valor Orçado": "R$ 50.000",
+      "Fornecedor": "AdMedia",
+      "Status": "Aprovado"
+  },
+  {
+      "Nome do Solicitante": "Eduardo Lima",
+      "Projeto": "Reforma de escritório",
+      "Item Solicitado": "Móveis e equipamentos",
+      "Valor Orçado": "R$ 70.000",
+      "Fornecedor": "OfficeSupplies",
+      "Status": "Pendente"
+  },
+  {
+      "Nome do Solicitante": "Fernanda Alves",
+      "Projeto": "Instalação de sistema de energia solar",
+      "Item Solicitado": "Painéis solares",
+      "Valor Orçado": "R$ 200.000",
+      "Fornecedor": "SolarEnergy",
+      "Status": "Aprovado"
+  },
+  {
+      "Nome do Solicitante": "Ricardo Mendes",
+      "Projeto": "Desenvolvimento de aplicativo móvel",
+      "Item Solicitado": "Serviços de desenvolvimento",
+      "Valor Orçado": "R$ 250.000",
+      "Fornecedor": "AppDev",
+      "Status": "Em análise"
+  },
+  {
+      "Nome do Solicitante": "Patrícia Souza",
+      "Projeto": "Planejamento urbano de um novo bairro",
+      "Item Solicitado": "Estudos de viabilidade",
+      "Valor Orçado": "R$ 50.000",
+      "Fornecedor": "UrbanPlan",
+      "Status": "Pendente"
+  },
+  {
+      "Nome do Solicitante": "Bruno Ribeiro",
+      "Projeto": "Produção de evento de lançamento de produto",
+      "Item Solicitado": "Serviços de catering",
+      "Valor Orçado": "R$ 15.000",
+      "Fornecedor": "GourmetEvents",
+      "Status": "Aprovado"
+  },
+  {
+      "Nome do Solicitante": "Juliana Costa",
+      "Projeto": "Implementação de rede de TI corporativa",
+      "Item Solicitado": "Equipamentos de rede",
+      "Valor Orçado": "R$ 150.000",
+      "Fornecedor": "NetTech",
+      "Status": "Pendente"
+  },
+  {
+      "Nome do Solicitante": "Gustavo Neves",
+      "Projeto": "Construção de um centro comunitário",
+      "Item Solicitado": "Materiais de construção",
+      "Valor Orçado": "R$ 200.000",
+      "Fornecedor": "BuildMaster",
+      "Status": "Aprovado"
+  },
+  {
+      "Nome do Solicitante": "Tatiana Rocha",
+      "Projeto": "Consultoria para melhoria de processos empresariais",
+      "Item Solicitado": "Serviços de consultoria",
+      "Valor Orçado": "R$ 100.000",
+      "Fornecedor": "BizConsult",
+      "Status": "Em análise"
+  },
+  {
+      "Nome do Solicitante": "Rodrigo Martins",
+      "Projeto": "Construção de um parque tecnológico",
+      "Item Solicitado": "Equipamentos de laboratório",
+      "Valor Orçado": "R$ 300.000",
+      "Fornecedor": "LabEquip",
+      "Status": "Pendente"
+  },
+  {
+      "Nome do Solicitante": "Vanessa Souza",
+      "Projeto": "Desenvolvimento de sistema de controle de estoque",
+      "Item Solicitado": "Software de controle de estoque",
+      "Valor Orçado": "R$ 100.000",
+      "Fornecedor": "StockSoft",
+      "Status": "Aprovado"
+  }
+]

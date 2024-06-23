@@ -1,0 +1,152 @@
+[
+  {
+      "ID do Projeto": 1,
+      "Nome do Cliente": "Cliente A",
+      "Prazo": "30/06/2024",
+      "Orçamento": "R$ 100.000",
+      "Fase Atual": "Planejamento",
+      "Responsável": "João Silva",
+      "Percentual de Conclusão": 20,
+      "Escopo do Projeto": "Construção de uma casa de 200 m²"
+  },
+  {
+      "ID do Projeto": 2,
+      "Nome do Cliente": "Cliente B",
+      "Prazo": "15/08/2024",
+      "Orçamento": "R$ 250.000",
+      "Fase Atual": "Execução",
+      "Responsável": "Maria Fernandes",
+      "Percentual de Conclusão": 50,
+      "Escopo do Projeto": "Desenvolvimento de software de gestão"
+  },
+  {
+      "ID do Projeto": 3,
+      "Nome do Cliente": "Cliente C",
+      "Prazo": "01/12/2024",
+      "Orçamento": "R$ 500.000",
+      "Fase Atual": "Monitoramento e Controle",
+      "Responsável": "Carlos Oliveira",
+      "Percentual de Conclusão": 75,
+      "Escopo do Projeto": "Implementação de sistema ERP"
+  },
+  {
+      "ID do Projeto": 4,
+      "Nome do Cliente": "Cliente D",
+      "Prazo": "25/07/2024",
+      "Orçamento": "R$ 150.000",
+      "Fase Atual": "Iniciação",
+      "Responsável": "Ana Pereira",
+      "Percentual de Conclusão": 10,
+      "Escopo do Projeto": "Redesenho de site corporativo"
+  },
+  {
+      "ID do Projeto": 5,
+      "Nome do Cliente": "Cliente E",
+      "Prazo": "10/09/2024",
+      "Orçamento": "R$ 300.000",
+      "Fase Atual": "Encerramento",
+      "Responsável": "Paulo Souza",
+      "Percentual de Conclusão": 95,
+      "Escopo do Projeto": "Campanha de marketing digital"
+  },
+  {
+      "ID do Projeto": 6,
+      "Nome do Cliente": "Cliente F",
+      "Prazo": "15/10/2024",
+      "Orçamento": "R$ 200.000",
+      "Fase Atual": "Planejamento",
+      "Responsável": "Eduardo Lima",
+      "Percentual de Conclusão": 15,
+      "Escopo do Projeto": "Reforma de escritório"
+  },
+  {
+      "ID do Projeto": 7,
+      "Nome do Cliente": "Cliente G",
+      "Prazo": "20/11/2024",
+      "Orçamento": "R$ 400.000",
+      "Fase Atual": "Execução",
+      "Responsável": "Fernanda Alves",
+      "Percentual de Conclusão": 60,
+      "Escopo do Projeto": "Instalação de sistema de energia solar"
+  },
+  {
+      "ID do Projeto": 8,
+      "Nome do Cliente": "Cliente H",
+      "Prazo": "30/12/2024",
+      "Orçamento": "R$ 600.000",
+      "Fase Atual": "Monitoramento e Controle",
+      "Responsável": "Ricardo Mendes",
+      "Percentual de Conclusão": 70,
+      "Escopo do Projeto": "Desenvolvimento de aplicativo móvel"
+  },
+  {
+      "ID do Projeto": 9,
+      "Nome do Cliente": "Cliente I",
+      "Prazo": "05/01/2025",
+      "Orçamento": "R$ 350.000",
+      "Fase Atual": "Iniciação",
+      "Responsável": "Patrícia Souza",
+      "Percentual de Conclusão": 5,
+      "Escopo do Projeto": "Planejamento urbano de um novo bairro"
+  },
+  {
+      "ID do Projeto": 10,
+      "Nome do Cliente": "Cliente J",
+      "Prazo": "28/02/2025",
+      "Orçamento": "R$ 100.000",
+      "Fase Atual": "Planejamento",
+      "Responsável": "Bruno Ribeiro",
+      "Percentual de Conclusão": 25,
+      "Escopo do Projeto": "Produção de evento de lançamento de produto"
+  },
+  {
+      "ID do Projeto": 11,
+      "Nome do Cliente": "Cliente K",
+      "Prazo": "15/03/2025",
+      "Orçamento": "R$ 450.000",
+      "Fase Atual": "Execução",
+      "Responsável": "Juliana Costa",
+      "Percentual de Conclusão": 40,
+      "Escopo do Projeto": "Implementação de rede de TI corporativa"
+  },
+  {
+      "ID do Projeto": 12,
+      "Nome do Cliente": "Cliente L",
+      "Prazo": "20/04/2025",
+      "Orçamento": "R$ 550.000",
+      "Fase Atual": "Monitoramento e Controle",
+      "Responsável": "Gustavo Neves",
+      "Percentual de Conclusão": 65,
+      "Escopo do Projeto": "Construção de um centro comunitário"
+  },
+  {
+      "ID do Projeto": 13,
+      "Nome do Cliente": "Cliente M",
+      "Prazo": "10/05/2025",
+      "Orçamento": "R$ 300.000",
+      "Fase Atual": "Iniciação",
+      "Responsável": "Tatiana Rocha",
+      "Percentual de Conclusão": 10,
+      "Escopo do Projeto": "Consultoria para melhoria de processos empresariais"
+  },
+  {
+      "ID do Projeto": 14,
+      "Nome do Cliente": "Cliente N",
+      "Prazo": "25/06/2025",
+      "Orçamento": "R$ 700.000",
+      "Fase Atual": "Planejamento",
+      "Responsável": "Rodrigo Martins",
+      "Percentual de Conclusão": 30,
+      "Escopo do Projeto": "Construção de um parque tecnológico"
+  },
+  {
+      "ID do Projeto": 15,
+      "Nome do Cliente": "Cliente O",
+      "Prazo": "05/07/2025",
+      "Orçamento": "R$ 150.000",
+      "Fase Atual": "Execução",
+      "Responsável": "Vanessa Souza",
+      "Percentual de Conclusão": 45,
+      "Escopo do Projeto": "Desenvolvimento de sistema de controle de estoque"
+  }
+]

@@ -32,28 +32,22 @@
                 <h1>INDICADORES</h1>
                 <ul>
                     <!-- Lista de indicadores -->
-                    <li>Indicador 1</li>
-                    <li>Indicador 2</li>
-                    <li>Indicador 3</li>
-                    <li>Indicador 4</li>
+                    <li id="indicador1">Comercial</li>
+                    <li id="indicador2">Suprimento</li>
+                    <li id="indicador3">Projeto</li>
                 </ul>
                 
-                <button class="botao-icon"><i class="fa fa-icon"></i> < </button>
-                <button class="botao-icon"><i class="fa fa-icon"></i> > </button>
             </div>
 
             <div class="arquivos">
                 <!-- Seção de arquivos -->
-                <h1>ARQUIVOS</h1>
+                <h1>DADOS</h1>
                 <ul>
                     <!-- Lista de pastas -->
-                    <li>Pasta 1</li>
-                    <li>Pasta 2</li>
-                    <li>Pasta 3</li>
-                    <li>Pasta 4</li>
+                    <li id="pasta1">Comercial</li>
+                    <li id="pasta2">Suprimento</li>
+                    <li id="pasta3">Projeto</li>
                 </ul>
-                <button class="botao-icon"><i class="fa fa-icon"></i> < </button>
-                <button class="botao-icon"><i class="fa fa-icon"></i> > </button>
             </div>
         </div>
     </header>
@@ -68,16 +62,26 @@
             <p> <img class="img-action" src="imgs/Compartilhar.png" alt="">COMPARTILHAR</p>
         </div>
 
-        <div class="texto-principal">
+        <div id="boas-vindas" class="texto-principal">
             <!-- Texto principal -->
             <h3>Seja bem vindo (a)!</h3>
             <p>Acesse o menu lateral para visualização dos indicadores.</p>
 
         </div>
 
+        <div class="tabela" id="data-table" style="display: none;">
+            <h2>INDICADOR 1</h2>
+            <table>
+              <thead>
+                <tr id="table-header"></tr>
+              </thead>
+              <tbody id="table-body"></tbody>
+            </table>
+          </div>
+
         <div class="perfil">
             <!-- Perfil do usuário -->
-            <p>LOGADO COMO ROBERTA</p>
+            <p>ADMIN</p>
         </div>
 
 
@@ -85,6 +89,7 @@
 
     <!-- Rodapé da página -->
     <footer></footer>
+    <script src="js/api.js"></script>
 
 </body>
 

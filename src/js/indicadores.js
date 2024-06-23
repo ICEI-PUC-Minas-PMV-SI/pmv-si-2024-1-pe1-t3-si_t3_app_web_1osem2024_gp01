@@ -6,7 +6,7 @@ function taxaDeConversao(jsonData) {
 function tempoMedioDeFechamento(jsonData) {
     let vendasGanhas = jsonData.filter(item => item.Status.toLowerCase() === "ganho" && item["Data de Fechamento"]);
     let totalDias = vendasGanhas.reduce((acc, item) => {
-        let dataCriacao = new Date(item["Data de Criação"]);
+        let dataCriacao = new Date(item["Data de Criaï¿½ï¿½o"]);
         let dataFechamento = new Date(item["Data de Fechamento"]);
         let dias = (dataFechamento - dataCriacao) / (1000 * 60 * 60 * 24);
         return acc + dias;
@@ -48,7 +48,7 @@ function filtroStatus(jsonData) {
     return quantidadeStatus;
 }
 
-fetch("apifake.json")
+fetch("json/apifake-com.json")
     .then(response => response.json())
     .then(data => {
         console.log(filtroStatus(data));
@@ -58,4 +58,27 @@ fetch("apifake.json")
         console.log(tempoMedioDeFechamento(data));
         console.log(taxaDeConversao(data));
     })
+
+fetch("json/apifake-sup.json")
+    .then(response => response.json())
+    .then(data => {
+        console.log(filtroStatus(data));
+        console.log(valorTotalPorOrigem(data));
+        console.log(numeroDeNegociosPorOrigem(data));
+        console.log(valorMedioDasVendasGanhas(data));
+        console.log(tempoMedioDeFechamento(data));
+        console.log(taxaDeConversao(data));
+    })
+
+fetch("json/apifake-proj.json")
+    .then(response => response.json())
+    .then(data => {
+        console.log(filtroStatus(data));
+        console.log(valorTotalPorOrigem(data));
+        console.log(numeroDeNegociosPorOrigem(data));
+        console.log(valorMedioDasVendasGanhas(data));
+        console.log(tempoMedioDeFechamento(data));
+        console.log(taxaDeConversao(data));
+    })
+
     .catch(error => console.error('Erro ao buscar dados:', error));

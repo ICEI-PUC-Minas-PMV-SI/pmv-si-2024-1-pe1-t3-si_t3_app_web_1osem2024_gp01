@@ -56,12 +56,6 @@ main {
     
 }
 
-.perfil {
-    display: absolute;
-    top: 0px;
-    right: 0px;
-}
-
 .arquivos li {
     list-style-image: url(/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/src/imgs/Folder\ Arquivos.png);
     
@@ -156,16 +150,14 @@ main {
 
 }
 
-table {
-    position: relative;
-    width: 1200px;
-    height: 591px;
+.tabela {
+    position:relative;
+    width: 1600px;
     border-collapse: collapse;
     top: 210px;
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
 
-    
 }
 
 th, td {
@@ -175,20 +167,20 @@ th, td {
     border-radius: 10px;
 }
 
-table tbody tr:nth-child(even) {
+.tabela tbody tr:nth-child(even) {
     background-color: #dfdddd;
     
 }
 
-table tbody tr:hover {
+.tabela tbody tr:hover {
     background: linear-gradient(90deg, #E0EAFC 0%, #CFDEF3 100%);
 }
 
-table .direita {
+.tabela .direita {
     text-align: right;
 }
 
-table .esquerda {
+.tabela .esquerda {
     padding: 0px 60px;
     text-align: left;
 }
@@ -206,3 +198,30 @@ th {
     left: 50;
 
 }
+
+body {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .menu {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+  
+  .conteudo {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #data-table {
+    overflow-y: auto;
+    height: 700px;
+  }
