@@ -77,3 +77,29 @@ button:hover {
 .error {
     color: red;
 }
+
+.error-message {
+    color: red;
+    display: none; /* Inicialmente, as mensagens estão ocultas */
+}
+
+.error-message.show {
+    display: block; /* Quando a mensagem precisa ser exibida, a classe 'show' é adicionada */
+}
+
+.icon-check, .icon-error {
+  display: none; /* Inicialmente, os ícones ficam ocultos */
+  margin-left: 5px; /* Adicione uma margem para espaçamento */
+  color: gray; /* Cor inicial dos ícones (cinza) */
+  font-size: 1.2em; /* Tamanho dos ícones */
+}
+
+.icon-check.show {
+  color: green; /* Cor do ícone "✔" */
+  display: inline-block; /* Exibe o ícone */
+}
+
+.icon-error.show {
+  color: red; /* Cor do ícone "X" */
+  display: inline-block; /* Exibe o ícone */
+}

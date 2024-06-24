@@ -10,14 +10,6 @@
     <link rel="shortcut icon" href="imgs/ico-hubsolutions.ico" type="ico-hubsolutions">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
-    <style>
-        .user-info {
-            display: none; 
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin-top: 10px;
-        }
-    </style>
 </head>
 
 <body>
@@ -48,11 +40,11 @@
 
     <main>
         <div class="action">
-            <p><img class="img-action" src="imgs/Atualizar.png" alt="">ATUALIZAR</p>
-            <p><img class="img-action" src="imgs/Salvar.png" alt="">SALVAR</p>
-            <p><img class="img-action" src="imgs/Tela-Cheia.png" alt="">TELA CHEIA</p>
-            <p><img class="img-action" src="imgs/Compartilhar.png" alt="">COMPARTILHAR</p>
-        </div>
+            <p id="refresh" class="action-item" data-action="refresh"><img class="img-action" src="imgs/Atualizar.png" alt="">ATUALIZAR</p>
+            <p class="action-item" data-action="save"><img class="img-action" src="imgs/Salvar.png" alt="">SALVAR</p>
+            <p id="fullscreen" class="action-item" data-action="fullscreen"><img class="img-action" src="imgs/Tela-Cheia.png" alt="">TELA CHEIA</p>
+            <p class="action-item" data-action="share"><img class="img-action" src="imgs/Compartilhar.png" alt="">COMPARTILHAR</p>
+          </div>
 
         <div id="boas-vindas" class="texto-principal">
             <h3>Seja bem vindo (a)!</h3>
@@ -122,7 +114,7 @@
 </div>
 
         <div class="perfil">
-            <p>ADMIN</p>
+            <p id="admin">ADMIN</p>
         </div>
 
         <div class="user-info">
@@ -135,6 +127,7 @@
     <script src="js/api.js"></script>
     <script src="js/indicadores.js"></script>
     <script src="js/localstorage.js"></script>
+    <script src="js/actionbuttons.js"></script>
 </body>
 
 </html>

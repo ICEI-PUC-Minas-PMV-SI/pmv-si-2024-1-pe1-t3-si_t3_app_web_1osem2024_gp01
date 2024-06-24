@@ -248,6 +248,7 @@ body {
 .user-info {
     display: none; 
     border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
     padding: 10px;
     margin-top: 10px;
     position: absolute;
@@ -255,3 +256,16 @@ body {
     left: 1640px;
     width: auto;
 }
+
+.delete-user {
+    color: rgb(0, 0, 0);
+    padding: 1px 4px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1px;
+  }
+  
+  .delete-user:hover {
+    background-color: red;
+  }
