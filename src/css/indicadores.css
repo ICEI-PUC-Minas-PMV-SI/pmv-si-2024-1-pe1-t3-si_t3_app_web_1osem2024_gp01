@@ -1,0 +1,106 @@
+.indicador h2 {
+    position: fixed;
+    width: 180px;
+    height: 26px;
+    top: 135px;
+    left: 900px;
+}
+
+.tabela-indicadores {
+    position: fixed;
+    left: 550px;
+    width: 900px;
+    border-collapse: collapse;
+    top: 150px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+ 
+  .tabela-indicadores th {
+    background-color: #1976D2;
+    color: #FFFFFF; 
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+
+  .tabela-indicadores tr {
+    transition: transform 0.2s ease-in-out;
+    padding: 10px;
+    border-bottom: 1px solid #EEEEEE;
+  }
+  
+
+  .tabela-indicadores td {
+    padding: 10px;
+    text-align: left;
+    font-size: 1em;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  
+
+  .tabela-indicadores tr:hover {
+    transform: translateY(-5px); 
+    background-color: #F5F5F5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .tabela-indicadores td:last-child {
+    font-weight: bold;
+    color: #00BCD4;
+  }
+
+  #tabela-indicadores-comercial {
+
+  }
+  
+  #tabela-indicadores-comercial tr:nth-child(even) {
+    background-color: #F0F8FF;
+  }
+  
+  #tabela-indicadores-comercial tr:nth-child(odd) {
+    background-color: #E0FFFF;
+  }
+  
+  #tabela-indicadores-comercial td:last-child {
+    color: #000000;
+  }
+
+  #tabela-indicadores-suprimento {
+  
+  }
+  
+  #tabela-indicadores-suprimento tr:nth-child(even) {
+    background-color: #E0FFFF;
+  }
+  
+  #tabela-indicadores-suprimento tr:nth-child(odd) {
+    background-color: #F0F8FF;
+  }
+  
+  #tabela-indicadores-suprimento td:last-child {
+    color: #000000;
+  }
+
+  #tabela-indicadores-projeto {
+    
+  }
+  
+  #tabela-indicadores-projeto tr:nth-child(even) {
+    background-color: #F0F8FF;
+  }
+  
+  #tabela-indicadores-projeto tr:nth-child(odd) {
+    background-color: #E0FFFF;
+  }
+  
+  #tabela-indicadores-projeto td:last-child {
+    color: #000000;
+  }

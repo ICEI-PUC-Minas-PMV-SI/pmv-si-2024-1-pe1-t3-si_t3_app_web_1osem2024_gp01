@@ -269,3 +269,28 @@ body {
   .delete-user:hover {
     background-color: red;
   }
+
+  .perfil button {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    width: 60px;
+    height: 40px;
+    top: 880px;
+    left: 1820px;
+    position: fixed;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .perfil button:hover {
+    background-color: red;
+  }
+  
+  .perfil button:active {
+    background-color: darkred;
+    transform: translateY(2px);
+  }

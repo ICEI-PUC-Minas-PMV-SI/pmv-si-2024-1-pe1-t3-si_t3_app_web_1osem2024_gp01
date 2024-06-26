@@ -38,6 +38,10 @@ function valorTotalPorOrigem(jsonData) {
         valorTotal[origem] = jsonData.filter(item => item.Origem === origem)
                                       .reduce((acc, item) => acc + item.Valor, 0);
     });
+    // Formata o valor total como moeda brasileira
+    for (const key in valorTotal) {
+        valorTotal[key] = valorTotal[key].toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    }
     return valorTotal;
 }
 
@@ -116,6 +120,10 @@ function orcamentoTotalPorFase(jsonData) {
         orcamentoTotal[fase] = jsonData.filter(item => item["Fase Atual"] === fase)
                                        .reduce((acc, item) => acc + parseFloat(item.Orçamento.replace("R$", "").replace(",", "")), 0);
     });
+    // Formata o orçamento total como moeda brasileira
+    for (const key in orcamentoTotal) {
+        orcamentoTotal[key] = orcamentoTotal[key].toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    }
     return orcamentoTotal;
 }
 
@@ -130,7 +138,7 @@ function prazoMedioPorFase(jsonData) {
             let dias = (prazo - hoje) / (1000 * 60 * 60 * 24);
             return acc + dias;
         }, 0);
-        prazoMedio[fase] = totalDias / projetosFase.length;
+        prazoMedio[fase] = Math.round(totalDias / projetosFase.length) + " Dias"; // Arredonda e adiciona " Dias"
     });
     return prazoMedio;
 }
@@ -147,13 +155,20 @@ function exibirIndicadores(indicadores, tabelaId) {
         tr.appendChild(tdChave);
 
         const tdValor = document.createElement("td");
-        if (typeof valor === "object") {
-            tdValor.innerText = JSON.stringify(valor, null, 2);
+
+        // Verifica se o valor é um objeto JSON
+        if (typeof valor === 'object') {
+            // Formata o objeto JSON para exibição em linhas separadas
+            let formattedValue = '';
+            for (const key in valor) {
+                formattedValue += `${key}: ${valor[key]}\n`; // Adiciona quebra de linha
+            }
+            tdValor.innerText = formattedValue;
         } else {
             tdValor.innerText = valor;
         }
-        tr.appendChild(tdValor);
 
+        tr.appendChild(tdValor);
         tabela.appendChild(tr);
     }
 }

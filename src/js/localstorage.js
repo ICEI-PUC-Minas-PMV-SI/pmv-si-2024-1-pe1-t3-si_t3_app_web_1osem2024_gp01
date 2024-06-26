@@ -1,7 +1,14 @@
 const perfilElement = document.querySelector('.perfil');
 const userInfoElement = document.querySelector('.user-info');
+const logoutButton = document.getElementById('logout-button'); // Pega o botão "Sair"
 
-perfilElement.addEventListener('click', toggleUserInfo); 
+// Evento de clique para o botão "Sair"
+logoutButton.addEventListener('click', function() {
+  window.location.href = 'login.html'; // Redireciona para a página de login
+});
+
+// Evento de clique para o texto "ADMIN"
+document.getElementById('admin').addEventListener('click', toggleUserInfo);
 
 function showUserInfo() {
   userInfoElement.innerHTML = '';
@@ -47,7 +54,7 @@ function toggleUserInfo() {
   if (userInfoElement.style.display === 'block') {
     userInfoElement.style.display = 'none';
   } else {
-    showUserInfo(); 
+    showUserInfo();
   }
 }
 
