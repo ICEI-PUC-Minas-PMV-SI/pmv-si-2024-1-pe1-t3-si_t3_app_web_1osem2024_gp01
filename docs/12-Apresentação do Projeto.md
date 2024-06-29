@@ -1,40 +1,20 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+![abc_page-0002](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/9dd95914-7101-49a1-9f86-128cff0b01f8)
 
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+![abc_page-0003](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/fd5610d2-2b69-4540-a062-c115c6f48afc)
 
-## Título do Projeto
+![abc_page-0004](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/744e1a5f-6c68-4710-9a58-71c064f8462c)
 
-Nome e marca do projeto
+![abc_page-0005](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/9f88237f-afec-47ce-bbd2-88ad380c45a7)
 
-## Identidade Visual (Marca, Design)
+![abc_page-0006](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/0959eb6f-c913-4cbc-8d9a-56d4c4341242)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+![abc_page-0007](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/398c4180-7fcf-4407-ab9b-c49c5ecab2c6)
 
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
+![abc_page-0008](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/34b97ac9-4864-4a7d-88f6-698dc024442b)
 
-## Conjunto de Slides (Estrutura)
+## Vídeo
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation)
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
-
-## Vídeo de demonstração
-
-O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
-
-> **Algumas informações úteis**
-> - O vídeo deve se limitar a 5 minutos e deve apresentar os objetivos do projeto antes de mostrar o sistema desenvolvido.
-> - O vídeo deve possuir uma narração que explica o que está sendo apresentado.
-> - Foque nas principais tarefas que o seu sistema desenvolveu. Não é necessário apresentar cada detalhe implementado.
-> - Não é necessário que todos os integrantes do grupo participem da gravação.
-> - Não é necessário que a face de algum integrante do grupo apareça na gravação.
-> - Uma ótima ferramenta open-source para gravação de vídeos é o [OBS](https://obsproject.com/pt-br/download)
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/12ee4084-e8c5-4e96-a0a7-391500b312b0
 
