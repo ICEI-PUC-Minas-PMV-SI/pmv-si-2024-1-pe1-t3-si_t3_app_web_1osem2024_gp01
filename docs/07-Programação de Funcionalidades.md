@@ -67,6 +67,14 @@ Será exibidos em  `div` com classe `tabela` com id `data-table`, `data-table2` 
 
 ![dados3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/f344c14f-2dc0-4b05-8a80-cce9305783f9)
 
+Será exibidos em  `div` com classe `indicador` com id `indicador-comercial`, `indicador-suprimento` e `indicador-projeto`, onde ele nos retorna uma tabela gerada com as fórmulas que usa os arquivos encontrados em src/json para calcular em JS encontrado em src/js/indicadores.js, como mostra a seguir:
+
+![indicadores3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/b7535a1b-f130-421e-b920-e0abbf9da47f)
+
+![indicadores2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/e856d0fd-87dd-410e-badb-e795dc061ce6)
+
+![indicadores](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01/assets/161783673/10b3d798-3f77-4b02-978c-f850c92d93aa)
+
 
 
 
