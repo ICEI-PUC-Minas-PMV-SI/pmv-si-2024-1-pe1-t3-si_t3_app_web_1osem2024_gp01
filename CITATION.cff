@@ -1,29 +1,25 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: Hub Solutions
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Paschoal Sarmento
+    given-names: Alvaro Vinicius
+  - family-names: de Sousa Lopes
+    given-names: Andre
+  - family-names: Alves Marques da Silveira
+    given-names: Carlos Aguinaldo
+  - family-names: Abduch
+    given-names: Ivan
+  - family-names: Alves Lima
+    given-names: Roberta
+  - name-suffix: Professor
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: Daher de Olivera
+    given-names: Nesley Jesus
 keywords:
-  -
-  -
-repository-code:
+  - Hub Solutions
+  - Integração de ferramentas para o negócio
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t3-si_t3_app_web_1osem2024_gp01.git
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2023-06-30
+date-released: 2024-06-29
